@@ -1,8 +1,8 @@
 ---
 layout: post
-category : lessons
+category : neo4j
 tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+tags : [neo4j, link-prediction, common-neighbors]
 ---
 {% include JB/setup %}
 
