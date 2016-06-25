@@ -72,9 +72,10 @@ ORDER BY common_neighbors DESCENDING
 
 which will return results that look like this
 
-source_id|target_id|common_neighbors|is_connected
-A “Rose Is a Rose Is a Rose Is a Rose,” but Exactly What Is a Gastric Adenocarcinoma? | Carbon Monoxide: To Boldly Go Where NO Has Gone Before. | 10 | True
-You Probably Think This Paper's About You: Narcissists' Perceptions of Their Personality and Reputation. | A Lucky Catch: Fishhook Injury of the Tongue. | 8 | False
-Role of Childhood Aerobic Fitness in Successful Street Crossing. | An-arrgh-chy: The Law and Economics of Pirate Organization | 1 | True
+|source_id|target_id|common_neighbors|is_connected|
+|---------|---------|---------------:|------------|
+|A “Rose Is a Rose Is a Rose Is a Rose,” but Exactly What Is a Gastric Adenocarcinoma? | Carbon Monoxide: To Boldly Go Where NO Has Gone Before. | 10 | True|
+|You Probably Think This Paper's About You: Narcissists' Perceptions of Their Personality and Reputation. | A Lucky Catch: Fishhook Injury of the Tongue. | 8 | False|
+|Role of Childhood Aerobic Fitness in Successful Street Crossing. | An-arrgh-chy: The Law and Economics of Pirate Organization | 1 | True|
 
 Where we're assuming that the paper title is used as the ID and the results are ordered by descending order of common neighbors.
