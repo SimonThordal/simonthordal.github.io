@@ -22,8 +22,3 @@ paginate:         5
 
 # Custom vars
 version:          2.1.0
-
-analytics :
-  provider : google
-  google : 
-      tracking_id : 'UA-79995324-1'
