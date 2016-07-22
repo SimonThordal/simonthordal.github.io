@@ -1,11 +1,16 @@
 ---
-layout: page
+layout: cv
 title: CV
 ---
+
+![me](/assets/prof.jpg){:class="float-img"}
 
 Simon Thordal
 =============
 *Mathematician and programmer who likes ML and complex networks*
+
+<br>
+<br> 
 
 ## Education
 
@@ -32,34 +37,33 @@ Part time job next to my studies working on developing interfaces between our CA
 Internship turned full-time job where I worked in web development for a start-up performing browser based 3D rendering. Mainly worked with JS/RoR and Redis and I got a lot of experience with the fast turn-arounds in the start-up world as well as a baptism by fire in web development.
 
 2009-2012
-**Translator**; Self-employed
+: **Translator**; Self-employed
 
 Worked as a translator from English, Swedish and Norwegian to Danish.
 
 2007-2009
-**Partner manager / Customer agent**; Scalepoint, Copenhagen, Denmark
+: **Partner manager / Customer agent**; Scalepoint, Copenhagen, Denmark
 
 Worked first as a customer service agent and afterwards negotiating supplier deals in a large network of Norwegian suppliers of all things from cell-phones to traditional folk dresses. High stress environment with some interesting challenges.
 
 ## Projects
-*Link prediction in complex networks
+* Link prediction in complex networks
 My master thesis focuses on using machine learning tools to predict future links in a network of European case
 law verdicts, useful both as a recommender engine and a way to infer network structure.
-
-*Topic clustering in EU plenary debates
+* Topic clustering in EU plenary debates
 I used dimensionality reduction (ICA) and unsupervised learning to mine topics in EU plenary debates to try to
 cluster parties together based on their favoured causes as well as what their stances were.
-
-*From scratch neural networks implementation
+* From scratch neural networks implementation
 To get an in-depth understanding of how neural networks work I created one from Python built-in functions. It
 is slow, but as an educational tool it works well.
 
 ## Technologies
 Coding techniques and tools:
-*Python and some of its machine learning eco-system (sklearn, pandas, networkx etc)
-*Matlab
-*C# in an enterprise setting
-*Neo4j
-*Used to writing production level, OOP code
-*Familiar with the general web development architecture (REST, MVC, SQL / NoSQL databases)
+
+* Python and some of its machine learning eco-system (sklearn, pandas, networkx etc)
+* Matlab
+* C# in an enterprise setting
+* Neo4j
+* Used to writing production level, OOP code
+* Familiar with the general web development architecture (REST, MVC, SQL / NoSQL databases)
 
