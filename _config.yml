@@ -7,7 +7,7 @@ permalink:        pretty
 
 # Setup
 title:            Simon Thordal
-description:      'A mathematician and programmer writing about things he is learning about'
+description:      'A blog about things I work on and things that interest me, hopefully with some intersection'
 url:              http://simonthordal.github.io
 baseurl:          /
 
@@ -23,4 +23,3 @@ paginate:         5
 analytics:
   google:
     code:        UA-79995324-1
-

@@ -2,3 +2,23 @@
     float:right;
     width:200px;
 }
+
+.image {
+  margin: 10px
+}
+
+figcaption {
+  margin: 5px 10px;
+  font-size: small;
+}
+
+.image-container {
+  float: right;
+  width: 49%;
+  margin: 5px 10px;
+}
+
+.double-image .image-container {
+  margin: auto;
+  margin-right: 1%;
+}
