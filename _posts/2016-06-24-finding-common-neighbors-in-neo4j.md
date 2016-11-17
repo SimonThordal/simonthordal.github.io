@@ -26,7 +26,7 @@ The first `MATCH`statement in the query finds all the paths in the network that 
 These two statements are in themselves enough to find the number of common neighbors between nodes in the network, but it is also interesting to know whether a link actually exists between the source and target so we can evaluate the performance of the number of common neighbors as a predictor. This is accomplished by the `OPTIONAL MATCH` statement which tries to find links between the source node and the target node and returns null if no link exists.
 
 ```
-OPTIONAL MATCH (source) - [con] - target
+OPTIONAL MATCH (source) - [con] - (target)
 ```
 
 Finally we can return the results of the query. We use `RETURN DISTINCT` to ensure that each source and target node is only returned once (if we didn't then we would get a row for each neighbor as well) and we find the number of common neighbors as the count of neighbor nodes for each pair of source and target nodes. The boolean `IS NOT NULL` statement at the end of the line returns true if a link was found between the source and target and false otherwise.
@@ -63,7 +63,7 @@ All in all this leads to the following statement
 MATCH (source)->(neighbor)--(target)
 WHERE NOT (source) = (target)
 AND source.created_at > target.created_at
-OPTIONAL MATCH (source) - [con] - target
+OPTIONAL MATCH (source) - [con] - (target)
 RETURN DISTINCT source.node_id AS source_id, target.verdict_id AS target_id, count(neighbor) AS common_neighbors, con IS NOT NULL as is_connected
 ORDER BY common_neighbors DESCENDING
 ```
