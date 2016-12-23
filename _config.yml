@@ -11,7 +11,7 @@ description:      'A blog about things I work on and things that interest me, ho
 url:              http://simonthordal.github.io
 baseurl:          /
 
-gems:             [jekyll-paginate, jekyll-gist]
+gems:             [jekyll-paginate, jekyll-gist, jekyll-sitemap]
 author:
   name:           'Simon Thordal'
   twitter:        https://twitter.com/simonthordal
