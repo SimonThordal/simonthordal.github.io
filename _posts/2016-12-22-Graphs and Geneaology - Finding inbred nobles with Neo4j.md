@@ -5,13 +5,13 @@ tags : [neo4j, link-prediction, common-neighbors]
 ---
 
 
-There are some things that most people think they know about noble families: That they were rich, rare and horribly inbred. The first two are outside of my expertise, but the genealogy data I implemented in neo4j I am able to look at inbreeding. Particularly we will be able to quantify the degree of inbreeding using the inbreeding coefficient which I will write more about in a later post, but for now it is enough to know that the more common ancestors a couple has, the more inbred their children will be.
+There are some things that most people think they know about noble families: That they were rich, rare and horribly inbred. The first two are outside of my expertise, but the genealogy data I implemented in Neo4j I am able to look at inbreeding. Particularly we will be able to quantify the degree of inbreeding using the inbreeding coefficient, which is used both by dog breeders and geneaologists to determine how inbred the children of a set of parents will be. I will probably write more about the derivation of it in a later post, but for I have only added a small section with its definition.
 
 ## First off a bit of history
 
 Marrying children to close relatives has been done in many cultures through history, sometimes because you wanted wealth and titles to stay in the immediate family and not be lost through inheritance, sometimes because there simply were noone else around and sometimes just because they were royals so [they could do what they wanted to do.](http://ngm.nationalgeographic.com/2010/09/tut-dna/dobbs-text)
 On the other end of the spectrum there were plenty of laws against marriages between family or cosanguineous marriages as well. The laws adopted by the early Catholic church forbade marriages where there were [less than four ancestors between husband and wife](http://www.rootsweb.ancestry.com/~medieval/consang.htm) which meant no first cousin marriages allowed, in ancient China marriages were only allowed between people [of different surnames](http://teacup.media/the-china-history-podcast/) and while first cousin marriages were allowed in Islam per example of the Prophet Muhammad [everything
-closer than that is not.](https://wikiislam.net/wiki/Cousin_Marriage_in_Islam)
+closer than that was not.](https://wikiislam.net/wiki/Cousin_Marriage_in_Islam)
 
 ## Measuring inbreeding
 
